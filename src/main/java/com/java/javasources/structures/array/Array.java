@@ -3,8 +3,8 @@ package com.java.javasources.structures.array;
 import java.util.Arrays;
 
 /**
- * @desc 动态扩容数组的简单实现
  * @author 木子Lee
+ * @desc 动态扩容数组的简单实现
  * @since 1.0
  */
 public class Array<E> {
@@ -31,9 +31,9 @@ public class Array<E> {
     public Array(int minCapacity) {
         if (minCapacity > 0) {
             elements = (E[]) new Object[minCapacity];
-        }else if (minCapacity ==  0) {
+        } else if (minCapacity == 0) {
             elements = (E[]) new Object[DEFAULT_LENGTH];
-        }else {
+        } else {
             throw new IllegalArgumentException("Illegal Capacity: " + minCapacity);
         }
         c = minCapacity;
