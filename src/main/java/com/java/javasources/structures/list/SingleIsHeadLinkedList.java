@@ -55,7 +55,7 @@ public class SingleIsHeadLinkedList<E> {
      * @param e
      */
     public void addFirst(E e) {
-        Node<E> node = node = new Node<>(e);
+        Node<E> node = new Node<>(e);
         if (head.next == null) {
             head.next = node;
             last = rear = node;
@@ -138,8 +138,8 @@ public class SingleIsHeadLinkedList<E> {
         public Node() {
         }
 
-        public Node(E item) {
-            this.item = item;
+        public Node(E e) {
+            this.item = e;
         }
 
         public Node(E item, Node<E> node) {
