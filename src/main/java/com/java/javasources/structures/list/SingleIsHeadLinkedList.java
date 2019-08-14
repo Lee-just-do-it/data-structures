@@ -133,7 +133,7 @@ public class SingleIsHeadLinkedList<E> {
         Node<E> next;
 
         /**
-         * 空构造器用于设置头结点地址（JVM知识），不存储树数据
+         * 空构造器用于设置头结点地址（JVM知识）,不存储树数据
          */
         public Node() {
         }
