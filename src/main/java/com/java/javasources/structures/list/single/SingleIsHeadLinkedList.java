@@ -1,9 +1,9 @@
-package com.java.javasources.structures.list;
+package com.java.javasources.structures.list.single;
 
 /**
  * @author 木子Lee
  * @desc 单链表相关 包含头结点的循环链表，即头结点不存储数据
- * 链接<com.java.javasources.structures.list.SingleLinkedList/> 功能点做补充说明
+ * 链接<com.java.javasources.structures.list.single.SingleLinkedList/> 功能点做补充说明
  * 以及 头尾结点 循环链表特定标识结点等
  * @date 2019/8/12 23：47
  * @since 1.0
@@ -33,7 +33,7 @@ public class SingleIsHeadLinkedList<E> {
 
     /**
      * 添加在链表尾结点
-     * 相比没有头结点和没有尾结点的 <com.java.javasources.structures.list.SingleLinkedList/> addLast 时间复杂度从O(n)降为了O(1)
+     * 相比没有头结点和没有尾结点的 <com.java.javasources.structures.list.single.SingleLinkedList/> addLast 时间复杂度从O(n)降为了O(1)
      *
      * @param e
      */
@@ -72,7 +72,7 @@ public class SingleIsHeadLinkedList<E> {
     }
 
     /**
-     * 相比没有尾结点的 <com.java.javasources.structures.list.SingleLinkedList/> getLast 时间复杂度从O(n)降为了O(1)
+     * 相比没有尾结点的 <com.java.javasources.structures.list.single.SingleLinkedList/> getLast 时间复杂度从O(n)降为了O(1)
      *
      * @return
      */
@@ -133,7 +133,7 @@ public class SingleIsHeadLinkedList<E> {
         Node<E> next;
 
         /**
-         * 空构造器用于设置头结点地址（JVM知识），不存储树数据
+         * 空构造器用于设置头结点地址（JVM知识）,不存储树数据
          */
         public Node() {
         }
