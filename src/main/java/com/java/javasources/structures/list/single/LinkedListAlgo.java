@@ -1,4 +1,4 @@
-package com.java.javasources.structures.list;
+package com.java.javasources.structures.list.single;
 
 /**
  * @author 木子Lee
