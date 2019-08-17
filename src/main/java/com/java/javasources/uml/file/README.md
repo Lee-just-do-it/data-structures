@@ -7,3 +7,5 @@ UML类图：
 *-:private*
 *#:protected*
 *~:package*
+
+示例仅仅用于说明UML类图关系，不存在逻辑设计
