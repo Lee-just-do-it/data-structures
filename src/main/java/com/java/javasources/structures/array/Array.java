@@ -10,22 +10,18 @@ import java.util.Arrays;
 public class Array<E> {
 
     /**
+     * 默认容量
+     */
+    private static final int DEFAULT_LENGTH = 10;
+    private static final int MAX_ARRAY_SIZE = Integer.MAX_VALUE - 8;
+    /**
      * 数组元素量
      */
     private int length;
-
     /**
      * 数组容量(下标)
      */
     private int c;
-
-    /**
-     * 默认容量
-     */
-    private static final int DEFAULT_LENGTH = 10;
-
-    private static final int MAX_ARRAY_SIZE = Integer.MAX_VALUE - 8;
-
     private E[] elements = null;
 
     public Array(int minCapacity) {

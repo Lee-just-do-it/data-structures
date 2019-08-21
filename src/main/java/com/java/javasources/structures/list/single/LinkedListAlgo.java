@@ -100,20 +100,6 @@ public class LinkedListAlgo<E> {
     }
 
     /**
-     * 仅仅用于 有序链表的合并思想
-     *
-     * @param <E>
-     */
-    private static class ListNode<E> {
-        private int val;
-        ListNode<E> next;
-
-        public ListNode(int i) {
-        }
-
-    }
-
-    /**
      * 求中间结点
      *
      * @param list
@@ -130,6 +116,20 @@ public class LinkedListAlgo<E> {
             slow = slow.next;
         }
         return slow;
+    }
+
+    /**
+     * 仅仅用于 有序链表的合并思想
+     *
+     * @param <E>
+     */
+    private static class ListNode<E> {
+        ListNode<E> next;
+        private int val;
+
+        public ListNode(int i) {
+        }
+
     }
 
     private static class Node<E> {
