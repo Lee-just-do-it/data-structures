@@ -102,10 +102,10 @@ public class SingleLinkedList<E> {
     private Node<E> node(int index) {
         Node<E> node = current;
         for (int i = 0; i < size; i++) {
-            node = node.next;
             if (i == index) {
                 break;
             }
+            node = node.next;
         }
         return node;
     }

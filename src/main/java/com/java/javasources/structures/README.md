@@ -40,7 +40,7 @@
     3.2 最优时间复杂度
         int j = 0
         for(int i = 0;i < n;i++){
-           if (j == n) {
+           if (j == i) {
              System.out.println();
            }
         }
@@ -48,7 +48,7 @@
     3.3 最差时间复杂度
         int j = n - 1 
         for(int i = 0;i < n;i++){
-           if (j == n) {
+           if (j == i) {
              System.out.println();
            }
         }
@@ -56,7 +56,7 @@
     3.4 平均时间复杂度(结合简单的'概率论'理解)
     int j = m
     for(int i = 0;i < n;i++){
-       if (j == n) {
+       if (j == i) {
          System.out.println();
        }
        break;
