@@ -159,10 +159,12 @@ public class LeftistHeap<AnyType extends Comparable<? super AnyType>> {
         LeftistNode<AnyType> left;         // Left child
         LeftistNode<AnyType> right;        // Right child
         int npl;          // null path length
+
         // Constructors
         LeftistNode(AnyType theElement) {
             this(theElement, null, null);
         }
+
         LeftistNode(AnyType theElement, LeftistNode<AnyType> lt, LeftistNode<AnyType> rt) {
             element = theElement;
             left = lt;

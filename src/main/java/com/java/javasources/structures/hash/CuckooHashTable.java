@@ -50,7 +50,7 @@ public class CuckooHashTable<AnyType> {
      * @return a prime number larger than or equal to n.
      */
     protected static int nextPrime(int n) {
-        if(n % 2 == 0) {
+        if (n % 2 == 0) {
             n++;
         }
 

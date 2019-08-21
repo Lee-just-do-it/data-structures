@@ -258,10 +258,12 @@ public class BinomialQueue<AnyType extends Comparable<? super AnyType>> {
         AnyType element;     // The data in the node
         BinNode<AnyType> leftChild;   // Left child
         BinNode<AnyType> nextSibling; // Right child
+
         // Constructors
         BinNode(AnyType theElement) {
             this(theElement, null, null);
         }
+
         BinNode(AnyType theElement, BinNode<AnyType> lt, BinNode<AnyType> nt) {
             element = theElement;
             leftChild = lt;

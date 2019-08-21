@@ -261,10 +261,12 @@ public class RedBlackTree<AnyType extends Comparable<? super AnyType>> {
         RedBlackNode<AnyType> left;       // Left child
         RedBlackNode<AnyType> right;      // Right child
         int color;      // Color
+
         // Constructors
         RedBlackNode(AnyType theElement) {
             this(theElement, null, null);
         }
+
         RedBlackNode(AnyType theElement, RedBlackNode<AnyType> lt, RedBlackNode<AnyType> rt) {
             element = theElement;
             left = lt;
